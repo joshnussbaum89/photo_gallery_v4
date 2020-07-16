@@ -1,3 +1,12 @@
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+
+#photo-gallery {
+    @include flexy($wrap: wrap);
+}
+
+img {
+    margin: 30px;
+    border-radius: 5px;
+}

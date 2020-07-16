@@ -340,15 +340,58 @@ template {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+* {
+  font-family: "IBM Plex Mono", monospace;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-family: "IBM Plex Serif", serif;
+  margin: auto;
+}
+
+p {
+  text-align: center;
+}
+
 /* ============================================= */
 /*              Body                            */
 /* ============================================= */
+.searchbar {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+input[type=search] {
+  width: 45%;
+  height: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: 100;
+}
+
+label[for=search] {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 /* ============================================= */
 /*              Buttons                          */
 /* ============================================= */
 /* ============================================= */
 /*              Grid System                      */
 /* ============================================= */
+#photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  margin: 30px;
+  border-radius: 5px;
+}
+
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
