@@ -8,3 +8,14 @@ img {
     border: 1px solid $cream;
     box-shadow: 1px 1px 10px $grey;
 }
+
+.lb-image {
+    margin: 0;
+}
+
+.lb-data {
+    .lb-caption {
+        color: $cream;
+        font-weight: 300;
+    }
+}

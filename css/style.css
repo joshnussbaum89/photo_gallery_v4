@@ -348,7 +348,9 @@ template {
 
 h1 {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 
 /* ============================================= */
@@ -379,6 +381,15 @@ img {
   box-shadow: 1px 1px 10px #777;
 }
 
+.lb-image {
+  margin: 0;
+}
+
+.lb-data .lb-caption {
+  color: #edf5e1;
+  font-weight: 300;
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
@@ -402,7 +413,7 @@ input[type=search] {
   transition: 100ms;
 }
 input[type=search]:focus {
-  padding: 15px;
+  width: 50%;
   box-shadow: 1px 1px 5px #777;
   opacity: 1;
 }

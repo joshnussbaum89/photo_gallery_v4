@@ -19,7 +19,7 @@ input[type="search"] {
     opacity: .5;
     transition: 100ms;
     &:focus {
-        padding: 15px;
+        width: 50%;
         box-shadow: 1px 1px 5px $grey;
         opacity: 1;
     }
