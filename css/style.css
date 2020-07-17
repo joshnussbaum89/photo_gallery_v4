@@ -341,39 +341,22 @@ template {
 /*              Typography                       */
 /* ============================================= */
 * {
-  font-family: "IBM Plex Mono", monospace;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-family: "IBM Plex Sans Condensed", sans-serif;
   font-family: "IBM Plex Serif", serif;
   margin: auto;
+  color: #edf5e1;
 }
 
-p {
-  text-align: center;
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
 }
 
 /* ============================================= */
 /*              Body                            */
 /* ============================================= */
-.searchbar {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
-
-input[type=search] {
-  width: 45%;
-  height: 30px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  margin-left: 10px;
-  border-radius: 5px;
-  font-weight: 100;
-}
-
-label[for=search] {
-  font-size: 1rem;
-  font-weight: 400;
+body {
+  background-image: url("/images/jeremy-perkins.jpg");
+  background-size: 50%;
 }
 
 /* ============================================= */
@@ -387,17 +370,41 @@ label[for=search] {
   flex-wrap: wrap;
 }
 
-img {
-  margin: 30px;
-  border-radius: 5px;
-}
-
 /* ============================================= */
 /*              Images                           */
 /* ============================================= */
+img {
+  margin: 30px;
+  border-radius: 5px;
+  border: 1px solid #edf5e1;
+}
+
 /* ============================================= */
 /*              Navigation                       */
 /* ============================================= */
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+input[type=search] {
+  width: 45%;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  border-radius: 5px;
+  font-weight: 100;
+  background-color: #0c0032;
+  transition: 100ms;
+}
+input[type=search]:focus {
+  padding: 15px;
+  box-shadow: 1px 1px 10px #edf5e1;
+}
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */

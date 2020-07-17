@@ -12,15 +12,18 @@ $ocean-light: lighten($ocean, 15%);
 $text: #51575b;
 $grey: #777;
 $white: #fff;
+$cream: #edf5e1;
 $white-opaque: rgba(255, 255, 255, 0.75);
 $border: #ccc;
 $border-opaque: rgba(204, 204, 204, 0.75);
 $orange: #ff784f;
 $mountain: #d36a62;
+$mountain-light: lighten($mountain, 15%);
 $mountain-bold: #a33830;
 $hot-red: #f22f46;
 $thouse: #3659a2;
 $text-field: #4683af;
+$space: #0c0032;
 
 
 // Button Colors
@@ -55,6 +58,7 @@ $light-mint-green: #80e8d1;
 $dark-background: #4a463f;
 $heading-tan: #ffca99;
 $yellow: yellow;
+$yellow-light: lighten($yellow, 25%);
 
 // Fonts
 
