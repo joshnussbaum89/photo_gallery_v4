@@ -343,20 +343,19 @@ template {
 * {
   font-family: "IBM Plex Serif", serif;
   margin: auto;
-  color: #edf5e1;
+  color: #0c0032;
 }
 
 h1 {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 /* ============================================= */
 /*              Body                            */
 /* ============================================= */
 body {
-  background-image: url("/images/jeremy-perkins.jpg");
-  background-size: 50%;
+  background: linear-gradient(to bottom right, #75c8d3, #fff);
 }
 
 /* ============================================= */
@@ -377,6 +376,7 @@ img {
   margin: 30px;
   border-radius: 5px;
   border: 1px solid #edf5e1;
+  box-shadow: 1px 1px 10px #777;
 }
 
 /* ============================================= */
@@ -397,12 +397,14 @@ input[type=search] {
   margin-left: 10px;
   border-radius: 5px;
   font-weight: 100;
-  background-color: #0c0032;
+  background-color: #edf5e1;
+  opacity: 0.5;
   transition: 100ms;
 }
 input[type=search]:focus {
   padding: 15px;
-  box-shadow: 1px 1px 10px #edf5e1;
+  box-shadow: 1px 1px 5px #777;
+  opacity: 1;
 }
 
 /* ============================================= */

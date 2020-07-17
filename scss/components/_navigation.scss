@@ -15,10 +15,12 @@ input[type="search"] {
     margin-left: 10px;
     border-radius: 5px;
     font-weight: 100;
-    background-color: $space;
+    background-color: $cream;
+    opacity: .5;
     transition: 100ms;
     &:focus {
         padding: 15px;
-        box-shadow: 1px 1px 10px $cream;
+        box-shadow: 1px 1px 5px $grey;
+        opacity: 1;
     }
 }
