@@ -4,7 +4,7 @@ lightbox.option({
     wrapAround: true,
     albumLabel: "%1 / %2",
     disableScrolling: true
-})
+});
 
 //search items
 document.querySelector('#search').addEventListener('keyup', function () {
