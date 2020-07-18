@@ -8,19 +8,21 @@
 }
 
 input[type="search"] {
-    width: 45%;
+    width: 65%;
     height: 45px;
     padding: 10px;
     border: 1px solid $border;
     margin-left: 10px;
     border-radius: 5px;
     font-weight: 100;
-    background-color: $cream;
-    opacity: .5;
+    background-color: $white;
+    opacity: .8;
     transition: 100ms;
     &:focus {
-        width: 50%;
+        width: 68%;
         box-shadow: 1px 1px 5px $grey;
         opacity: 1;
+        outline: none;
+        border: none;
     }
 }

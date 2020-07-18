@@ -1,3 +1,16 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
+
+//768px
+@include mq-md {
+    .thumbnail {
+        width: initial;
+    }
+    input[type="search"] {
+        width: 48%;
+        &:focus {
+        width: 50%;
+    }
+}
+}
