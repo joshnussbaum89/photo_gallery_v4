@@ -3,5 +3,5 @@
 /* ============================================= */
 
 #photo-gallery {
-    @include flexy($wrap: wrap);
+    @include flexy($wrap: wrap, $just: center);
 }

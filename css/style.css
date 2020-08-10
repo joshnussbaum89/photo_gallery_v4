@@ -342,7 +342,6 @@ template {
 /* ============================================= */
 * {
   font-family: "IBM Plex Serif", serif;
-  margin: auto;
   color: #0c0032;
 }
 
@@ -366,6 +365,7 @@ body {
 #photo-gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 /* ============================================= */
