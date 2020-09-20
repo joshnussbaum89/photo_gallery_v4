@@ -27,32 +27,31 @@ document.querySelector('#search').addEventListener('keyup', function () {
     }
 });
 
-// $(function () {
-//     const availableTags = [
-//         "ActionScript",
-//         "AppleScript",
-//         "Asp",
-//         "BASIC",
-//         "C",
-//         "C++",
-//         "Clojure",
-//         "COBOL",
-//         "ColdFusion",
-//         "Erlang",
-//         "Fortran",
-//         "Groovy",
-//         "Haskell",
-//         "Java",
-//         "JavaScript",
-//         "Lisp",
-//         "Perl",
-//         "PHP",
-//         "Python",
-//         "Ruby",
-//         "Scala",
-//         "Scheme"
-//     ];
-//     $("#tags").autocomplete({
-//         source: availableTags
-//     });
-// });
+$(function () {
+    const availableTags = [
+        "ActionScript",
+        "AppleScript",
+        "Asp",
+        "C",
+        "C++",
+        "Clojure",
+        "COBOL",
+        "ColdFusion",
+        "Erlang",
+        "Fortran",
+        "Groovy",
+        "Haskell",
+        "Java",
+        "JavaScript",
+        "Lisp",
+        "Perl",
+        "PHP",
+        "Python",
+        "Ruby",
+        "Scala",
+        "Scheme"
+    ];
+    $("#tags").autocomplete({
+        source: availableTags
+    });
+});
